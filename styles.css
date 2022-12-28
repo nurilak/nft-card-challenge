@@ -1,0 +1,118 @@
+body {
+  background-color: #0d192c;
+  height: 100vh;
+  margin: 0;
+  font-family: Outfit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  background-color: #15263f;
+  width: 350px;
+  border-radius: 15px;
+  padding: 24px;
+}
+
+.mainimg {
+  position: relative;
+}
+
+.image__img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00fff8;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.image__overlay:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px;
+}
+
+h1:hover {
+  color: #00fff8;
+}
+
+.p1 {
+  color: #8bacd9;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.icon {
+  vertical-align: bottom;
+}
+.p2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #00fff8;
+  display: inline;
+  margin-left: 5px;
+}
+
+.p3 {
+  color: #8bacd9;
+  display: inline;
+  padding: 5px;
+}
+
+.ethclock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  width: 300px;
+  height: 1px;
+  background-color: #2e405a;
+  margin: 20px auto;
+}
+
+.person {
+  width: 33px;
+  height: 33px;
+  border: 1px solid white;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+
+.p4 {
+  display: inline;
+  font-weight: 400;
+  padding-left: 10px;
+  color: #8bacd9;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #00fff8;
+}
